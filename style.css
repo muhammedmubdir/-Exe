@@ -1,0 +1,32 @@
+body {
+    direction: rtl;
+    font-family: "Tajawal", sans-serif;
+}
+
+.bg-hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    height: 400px;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+.product-img {
+    height: 200px;
+    object-fit: cover;
+}
